@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.free{
+    padding: 10px 30px;
+    width: 100%;
+    background: #010f1c;
+    display: flex;
+}
+.free .icon{
+    color: #f3b123;
+    font-size: 22px;
+}
+.free p{
+    margin-left: 10px;
+    color: #f6f7f9;
+    margin-top: 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main_header{
+    padding: 30px 40px;
+    width: 100%;
+    border-bottom: 1px solid #010f1c;
+}
+.main_header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.main_header .container .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.main_header .container .logo p{
+    font-size: 26px;
+    font-weight: 600;
+}
+.main_header .container .search-box{
+    margin-right: 30px;
+    display: flex   ;
+}
+.main_header .container .search-box input{
+    outline: none;
+    padding: 7px 25px;
+    font-size: 18px;
+    border: 3px solid #0989ff;
+    width: 300px;
+    color: #010f1c;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.main_header .container .search-box button{
+    border: none;
+    outline: none;
+    padding: 13px 20px;
+    cursor: pointer;
+    background: #0989ff;
+    color: #ecf2f7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.main_header .container .icon{
+    display: flex;
+    align-items: center;
+}
+.main_header .container .icon .account{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.main_header .container .icon .account .user-icon{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #010f1c;
+    cursor: pointer;
+}
+.main_header .container .icon .account .user-icon img{
+    width: 30px;
+    border-radius: 50%;
+}
+.main_header .container .icon .account p{
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.main_header .container .icon .second_icon{
+    display: flex;
+}
+.main_header .container .icon .second_icon .link{
+    margin-right: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header{
+    padding: 15px 20px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.header .container .nav{
+    display: flex;
+    align-items: center;
+}
+.header .container .nav li{
+    margin-left: 20px;
+    list-style: none;
+}
+.header .container .nav li .link{
+    text-decoration: none;
+    color: #010f1c;
+}
+ .nav li .link:hover{
+    color: #0989ff;
+}
+.header .container .auth{
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.header .container .auth button{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 10px;
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #f5e6e6;
+    box-shadow: 1px 1px 5px #01040a;
+    transition: 0.5s;
+}
+.header .container .auth button:hover{
+    background: #f5e6e6;
+    box-shadow:inset 1px 1px 5px #01040a;
+}
